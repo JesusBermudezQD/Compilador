@@ -72,6 +72,7 @@ class Ventana():
 			f.close()
 
     			
+				
 	def compilar(self):
 		datos=self.text.get("1.0",END)
 		parser.VERBOSE = 0
